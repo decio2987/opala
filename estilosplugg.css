@@ -1,0 +1,38 @@
+
+/*seletor/descendente*/
+ div h1{
+	color: red;
+}
+body h1{
+	color: blue;
+}
+ul li{
+	color:#00FF00;
+}
+/*seletor/filho*/
+#menu>li{
+	color :blue;
+}
+/*seletor/irmao*/
+h2+p{
+	color: #ffa500;
+}
+h2+h3{
+	color: #0ff;
+}
+
+
+/*diferenciando atraves do elemento*/
+
+.teste {
+	border: 5px solid #000;
+} 
+span.teste{
+	color: red;
+}
+blockquote.teste{
+	color: blue;
+	width: 150px;
+}	
+
+

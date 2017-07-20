@@ -1,0 +1,41 @@
+/*ppseudo seletores*/
+div > h1 {
+	color: red;
+}
+p:first-line{
+	color: red;
+}
+p:first-letter{
+	font-size: 50px;
+	color: blue;
+}
+/*palinks*/
+a:link{
+	color: #09f;
+}
+a:visited{
+	color: yellow;
+
+}
+a:active{
+	color: #0f0;
+}
+a:hover{
+	color: black;
+}
+textarea:hover{
+	color: red;
+}
+textarea:focus{
+	background: black;
+	color: white;
+}
+p:before{
+	content:*home*;
+}
+p:after{
+	content: *final*;	
+}
+h1:before{
+	content:*#*;
+}

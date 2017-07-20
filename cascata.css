@@ -1,0 +1,41 @@
+p{
+	font-family: cursive;
+	color: red;
+	width: 500px;
+	width: sp
+}
+/*
+background-color/cor de fundo
+background-image/imagem de fundo
+background-repeat/se repete ou nao
+           atchement/se a imagem fica fixa ou nao
+           position/posiçao da image/*
+           */
+           
+
+
+
+body{
+	
+}
+
+.box {	
+	width: 600px;
+	height: 600px;
+	border: 5px solid #ccc;
+   background color: transparent;
+   background-image: url(imagens/mario.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+div{
+	height: 200px;
+	height: 100px;
+	border: 10px solid #ccc;
+	text-align-center;
+	line-height: 70px;
+   }
+
+.teste {
+	vertical-align: super;
+}
