@@ -12,6 +12,11 @@
 	width: 100%;
 	border-radius: 10px;
 }
+.motor1 img{
+	width: 35%;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
 
 .teste{
 
@@ -61,7 +66,7 @@ body{
 .inicio h2{
 	margin-top: 10px;
 	font:italic bold small-caps 30px cursive;
-	color: blue;
+	color: #666666;
 	text-align: left;
 	font-size: 40px;
 	margin-left: 15px;
@@ -165,19 +170,21 @@ body{
 
 .menu2 a{
 	font-size: 17px;
-	color: white;
+	color: #6d6d6d;
 	margin:auto;
 }
 
 
 .menu2 ul {
     margin:auto;
- 	background-color:#EDEDED;
+ 	background-color:#6d6d;
     list-style:none;
     width: 460px;
     
 }
-.menu2 ul li {display: inline;
+.menu2 ul li {
+	display: inline;
+	background-color:#EDEDED;
  }
 
 .menu2 ul li a {
