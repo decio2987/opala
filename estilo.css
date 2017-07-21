@@ -153,14 +153,14 @@ body{
 	color: blue;
 	margin-left: 5px;
 	background-color: yellow;
-	width: 180px;
+	width: 200px;
 }
 .botao ul li:hover{
 	
 }
 .botao ul li a:hover{
 	font-size: 70;
-	width: 150
+	width: 130
 
 }
 
@@ -179,7 +179,7 @@ body{
     margin:auto;
  	background-color:#6d6d;
     list-style:none;
-    width: 460px;
+    width: 595px;
     
 }
 .menu2 ul li {
