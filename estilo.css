@@ -320,6 +320,9 @@ body{
 .menu a{
 	font-size: 30px;
 }
+.menu2 a{
+	font-size: 25px;
+}
 .conteudo img{
 	width: 100%;
 }
