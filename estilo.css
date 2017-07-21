@@ -307,3 +307,10 @@ body{
 
 
 }
+@media screen and (max-width: 440px){
+.inicio h4{
+	font-size:25px;
+	margin-left: -2px;
+	margin-right: -1px;
+}
+}
