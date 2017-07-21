@@ -303,10 +303,10 @@ body{
 
 /*dispositivo movel*/
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 960px){
 
 .inicio h4{
-	font-size:25px;
+	font-size:35px;
 	margin-left: 1px;
 	margin-right: 1px;
 }
@@ -316,8 +316,11 @@ body{
 
 }
 @media screen and (max-width: 748px){
+.inicio img{
+	width: 100%;
+}
 .inicio h4{
-	font-size:30px;
+	font-size:35px;
 	margin-left: 1px;
 	margin-right: 1px;
 }
@@ -331,6 +334,10 @@ body{
 .conteudo h3{
 	font-size: 45px;
 	text-align: center;
+}
+.conteudo h4{
+	font-size: 35px;
+	
 }
 .opala img{
 	width: 100%;
