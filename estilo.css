@@ -303,7 +303,7 @@ body{
 
 /*dispositivo movel*/
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1000px){
 
 .inicio img{
 	width: 100%;
