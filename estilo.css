@@ -317,6 +317,9 @@ body{
 	font-size: 45px;
 	position: relative;
 }
+.menu a{
+	font-size: 30px;
+}
 .conteudo img{
 	width: 100%;
 }
@@ -362,5 +365,8 @@ body{
 }
 .opala img{
 	width: 100%;
+}
+.menu a{
+	font-size: 30px;
 }
 }
