@@ -2,6 +2,14 @@
 	margin: 0;
 	padding: 0;
 }
+#navbar1 ul li a{
+	color: red;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
 .inicio{
 	margin-top:-30px;
 }
@@ -84,30 +92,14 @@ body{
 	margin-left: 15px;
     font-family: 'Open Sans', sans-serif; 
 }
-.menu ul li{
-	list-style-type: none;
-	
-	width: 150px;
-	display: inline;
-	margin-left: 5px;
-}
-.menu ul li a{
-	border-bottom:3px solid #EDEDED;
-	margin-left: 23px;
-	
-	padding: 2px 1px;
-	}
-.menu ul{
-	background-color:#6D6D6D;
-	width: 100%;
-}
+
  .menu ul li:hover{
 	
  	
 }
 
 .menu ul li a:hover{
-	width: 180px;
+	width: 100px;
      background-color:#D6D6D6;
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
