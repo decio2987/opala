@@ -204,7 +204,10 @@ body{
 .primeiro {
 	color:blue;
 }
-
+.videos inframe{
+	width: 100px;
+	margin-left: 25px;
+}
 .menu2 a{
 	font-size: 17px;
 	color: #6d6d6d;
@@ -213,6 +216,7 @@ body{
 
 
 .menu2 ul {
+	
     margin:auto;
  	background-color:#6d6d;
     list-style:none;
@@ -220,12 +224,13 @@ body{
     
 }
 .menu2 ul li {
+	
 	display: inline;
 	background-color:#EDEDED;
  }
 
 .menu2 ul li a {
-	
+	margin-top: 125px;
    padding: 3px 15px;
    display: inline-block;
 
@@ -341,7 +346,9 @@ body{
 /*dispositivo movel*/
 
 @media screen and (max-width: 1000px){
-
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: red;
+}
 .inicio img{
 	width: 100%;
 }
