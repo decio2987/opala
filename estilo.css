@@ -29,21 +29,15 @@
 	margin-left: 15px;
     font-family: 'Open Sans', sans-serif; 
 }
-.menu ul li{
-	width: 157px;	
-}
 .menu ul li a{
 	width: 120px;
 	height: 50px;
 	text-align: center; 
 }
+
 .dropdown-menu{
 	background-color: red;
 	text-align: center;
-}
-.dropdown-menu li a:hover{
-	background-color: red;
-	width: 150px;
 }
 .menu ul li a:hover{
 	width: 50px;
@@ -74,14 +68,6 @@
 	border-radius: 10px;
 	margin-bottom: 15px;
 }
-
-.teste{
-
-	margin-top: 50px;
-	font-size: 25px;
-	margin-bottom: 50px;
-	font-style: unset;
-}
 .logo img{
 	width: 100%;
 	height: 20%;
@@ -97,21 +83,10 @@
 body{
 	background-image: linear-gradient(to right, white,#c0d9d9, white);
 	background-repeat: no-repeat;
-
-	
-	
-	} 	
-.teste h4{
-
-	font-size: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-.inicio  {
-
+} 	
+.inicio{
 	list-style: none;
 	font-size: 40px;
-
 }
 .inicio h4{
 	
@@ -128,64 +103,6 @@ body{
 	font-size: 40px;
 	margin-left: 15px;
 }
-
-.inicio h2 i {
-	font-size: 15px;
-	color: red; 
-}
-
-
- .versões h2{
- 	font-size: 30px;
- 	color: blue;
- }
-.versões {
-
-	font-family: 'Open Sans', sans-serif;
-	margin-left: 15px;
-
- }
-.versões h1{
-
-
-	width: 50px;
-	color: green;
-}
-.versões h3{
-	font-size: 15px;
-	
-	margin-right: 15px;
-
-	}
-.botao ul {
-	
-
-}	
-.botao ul li{
-	display: inline;
-	
-	
-	
-	margin-left: 25px;
-
-}
-
-.botao ul li a{
-	font-size: 40px;
-	color: blue;
-	margin-left: 5px;
-	background-color: yellow;
-	width: 200px;
-}
-.botao ul li:hover{
-	
-}
-.botao ul li a:hover{
-	font-size: 70;
-	width: 130
-
-}
-
 .primeiro {
 	color:blue;
 }
@@ -210,11 +127,9 @@ body{
  }
 
 .menu2 ul li a {
-	
-   padding: 3px 15px;
+	padding: 3px 15px;
    display: inline-block;
-
-    /* visual do link */
+	/* visual do link */
     background-color:#EDEDED;
     color: #333;
     text-decoration: none;
@@ -224,52 +139,6 @@ body{
     background-color:#D6D6D6;
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
-}
-.a{
-	width: 50%;
-	height: 1000px;
-	background-color: red;
-	position: relative;
-}
-.b{
-	width: 300px;
-	height: 300px;
-	background:white;
-
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	z-index: 3
-	
-}
-.c{
-	width: 300px;
-	height: 300px;
-	background:#fc3;
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	z-index: 
-}
-.b div{
-	width: 100px;
-	height: 100px;
-	background-color: blue;
-	float: left;
-
-}
-.b div+div{
-	display: none;
-}
-.ul{
-	 list-style-type: upper-alpha;
-}
-.foto1 img{
-	width: 35%;
-	float:left;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
 }
 .motor img{
 	width: 35%;
@@ -284,12 +153,7 @@ body{
 	margin-left: 25px;
 	margin-bottom: 30px;
 	}
-.rodape h2{
-	font-size: 40px;
-	color: white;
-	margin-left: 40%;
 
-}
 .rodape i{
 	font-size: 35px;
 	margin-top: 35px;

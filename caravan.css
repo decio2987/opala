@@ -29,65 +29,50 @@
 	margin-left: 15px;
     font-family: 'Open Sans', sans-serif; 
 }
-.menu ul li{
-	width: 157px;	
-}
 .menu ul li a{
 	width: 120px;
 	height: 50px;
 	text-align: center; 
 }
+/*atras do menu responsivo*/
 .dropdown-menu{
 	background-color: red;
 	text-align: center;
-}
-.dropdown-menu li a:hover{
-	background-color: red;
-	width: 150px;
 }
 .menu ul li a:hover{
 	width: 50px;
 	background-color: red;
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
- }
+}
 .navbar-default {
 	background-color: transparent;
 	border: none;
 	text-align: center;
 }
+/*menu */
 .inicio{
 	margin-top:-30px;
 }
-.opala img{
-	width: 100%;
-}
+
 .motor img{
-	width: 100%;
+	width: 35%;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-right: 15px;
 	border-radius: 10px;
 }
 .motor1 img{
 	width: 35%;
 	border-radius: 10px;
-	margin-bottom: 15px;
+	
 }
 .especial img{
-	width: 400px;
-	float: right;
+	width: 35%;
 	border-radius: 10px;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-}
-.especial h3{
-	margin-top: 160px;
-}
-.teste{
-
-	margin-top: 50px;
-	font-size: 25px;
-	margin-bottom: 50px;
-	font-style: unset;
+	margin-top: 120px;
+	margin-left: 120px;
+	
 }
 .logo img{
 	width: 100%;
@@ -98,27 +83,14 @@
 	background-position: top;
 	background-size: 1200px;
 	height: 100px;		
-
-
 }
 body{
 	background-image: linear-gradient(to right, white,#c0d9d9, white);
 	background-repeat: no-repeat;
-
-	
-	
-	} 	
-.teste h4{
-
-	font-size: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-.inicio  {
-
+}  	
+.inicio{
 	list-style: none;
 	font-size: 40px;
-
 }
 .inicio h4{
 	
@@ -135,82 +107,6 @@ body{
 	font-size: 40px;
 	margin-left: 15px;
 }
-
-.inicio h2 i {
-	font-size: 15px;
-	color: red; 
-}
-
-.menu a{
-	font-size: 20px;
-	color: white;
-	margin-left: 15px;
-    font-family: 'Open Sans', sans-serif; 
-}
-
- .menu ul li:hover{
-	
- 	
-}
-
-.menu ul li a:hover{
-	width: 100px;
-     background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
- }
-
- .versões h2{
- 	font-size: 30px;
- 	color: blue;
- }
-.versões {
-
-	font-family: 'Open Sans', sans-serif;
-	margin-left: 15px;
-
- }
-.versões h1{
-
-
-	width: 50px;
-	color: green;
-}
-.versões h3{
-	font-size: 15px;
-	
-	margin-right: 15px;
-
-	}
-.botao ul {
-	
-
-}	
-.botao ul li{
-	display: inline;
-	
-	
-	
-	margin-left: 25px;
-
-}
-
-.botao ul li a{
-	font-size: 40px;
-	color: blue;
-	margin-left: 5px;
-	background-color: yellow;
-	width: 200px;
-}
-.botao ul li:hover{
-	
-}
-.botao ul li a:hover{
-	font-size: 70;
-	width: 130
-
-}
-
 .primeiro {
 	color:blue;
 }
@@ -220,26 +116,20 @@ body{
 	color: #6d6d6d;
 	margin:auto;
 }
-
-
 .menu2 ul {
     margin:auto;
  	background-color:#6d6d;
     list-style:none;
     width: 600px;
-    
 }
 .menu2 ul li {
 	display: inline;
 	background-color:#EDEDED;
  }
-
-.menu2 ul li a {
-	
-   padding: 3px 15px;
+ .menu2 ul li a {
+	padding: 3px 15px;
    display: inline-block;
-
-    /* visual do link */
+	/* visual do link */
     background-color:#EDEDED;
     color: #333;
     text-decoration: none;
@@ -250,52 +140,6 @@ body{
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
 }
-.a{
-	width: 50%;
-	height: 1000px;
-	background-color: red;
-	position: relative;
-}
-.b{
-	width: 300px;
-	height: 300px;
-	background:white;
-
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	z-index: 3
-	
-}
-.c{
-	width: 300px;
-	height: 300px;
-	background:#fc3;
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	z-index: 
-}
-.b div{
-	width: 100px;
-	height: 100px;
-	background-color: blue;
-	float: left;
-
-}
-.b div+div{
-	display: none;
-}
-.ul{
-	 list-style-type: upper-alpha;
-}
-.foto1 img{
-	width: 35%;
-	float:left;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-}
 .motor img{
 	width: 35%;
 	float:left;
@@ -303,17 +147,10 @@ body{
 	margin-bottom: 25px;
 	margin-right: 15px;
 }
-
 .rodape{
 	margin-top: 30px;
 	margin-left: 25px;
 	margin-bottom: 30px;
-	}
-.rodape h2{
-	font-size: 40px;
-	color: white;
-	margin-left: 40%;
-
 }
 .rodape i{
 	font-size: 35px;
@@ -337,20 +174,20 @@ body{
 }
 .foto img{
 	width: 100px;
+}
+.foto img{
+	width: 100px;
 
 }
-.foto h5{
-	margin-left: 650px;
-	margin-top: 30px;
-}
-
-
-
-
 
 /*dispositivo movel*/
 
 @media screen and (max-width: 1000px){
+.menu{
+
+	
+
+}
 
 .inicio img{
 	width: 100%;
@@ -369,9 +206,6 @@ body{
 }
 .menu2 a{
 	font-size: 25px;
-}
-.especial img{
-	width: 100px;
 }
 .conteudo img{
 	width: 100%;
@@ -404,9 +238,6 @@ body{
 .inicio h2{
 	font-size: 45px;
 	position: relative;
-}
-.especial img{
-	width: 100%;
 }
 .conteudo img{
 	width: 100%;
