@@ -2,21 +2,151 @@
 	margin: 0;
 	padding: 0;
 }
+#main h2{
+	font-size: 25px;
+}
+.sub-menu:hover .menu li a:hover{
+    background-color: red;
+
+}
+
+li.sub-menu {
+    display: block;
+}
+
+.sub-menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.sub-menu-content a{
+   
+    padding: 12px 16px;
+    
+    display: block;
+    text-align: center;
+}
+.sub-menu-content a:hover {
+	background-color: #f1f1f1;
+	font-size: 20px;
+}
+.sub-menu:hover .sub-menu-content {
+    display: block;
+}
+.menu-responsivo{
+	display: none;
+}
+
+.menu-responsivo {
+	z-index: 99999;
+	position: fixed;
+	width: 100px;
+	margin-left: 158px;
+	top: -200px;
+	transition: .4s;
+}
+
+.menu-responsivo ul {
+		margin-top: 0px;
+		margin-left: -50px;
+		list-style: none;
+		text-align: center;
+		background-color: #6d6d6d;
+}
+.menu-responsivo ul a{
+		background-color: #6d6d6d;
+
+}
+.menu-responsivo ul li a {
+		font-size: 20px;
+		padding: 10px;
+		display: block;
+		color: white;
+		border-bottom: solid 1px white;
+		text-decoration: none;
+		text-transform: uppercase;
+		transition: .4s;
+
+}
+.menu-responsivo ul li a:hover {
+	color: red;
+	
+}
+.menu-responsivo.ativo {
+	top: 0;
+}
+.sub-menu{
+	display: none;
+}
+
+
+/*TOGGLE*/
+.toggle{
+	display: none;
+}
+
+.toggle i{
+	border: solid 2px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	font-size: 30px	;
+	color: black;
+	transition: .3s;
+}
+/* EFEITO DO LAYOUT ESCORREGANDO PRA BAIXO*/
+.layout{
+	transition:.2s;
+}
+.layout.ativo{	
+	padding-top: 200px
+}
+.menu2 ul{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.menu2 ul li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.menu2 ul li a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.menu2 ul li a:hover {
+	color: red;
+	border-bottom: solid 3px;
+	padding-bottom: 5px;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #6d6d6d;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-	background-color: red;
+	background-color: #EA0000;
 }
 #navbar1 ul li a{
-	width: 120px;
+	width: 130px;
+	height: 50px;
 	color: white;
-	text-align: center;
+	font-size: 22px;
+	
 }
 #navbar1 ul li {
 	background-color: #6d6d6d;
 	width: 140px;
 	height: 55px;
+	
+}
+.menu2{
+	display: none;
 }
 .menu{
 	background-color: #6d6d6d;
@@ -29,21 +159,16 @@
 	margin-left: 15px;
     font-family: 'Open Sans', sans-serif; 
 }
-.menu ul li a{
-	width: 120px;
-	height: 50px;
-	text-align: center; 
-}
-
 .dropdown-menu{
 	background-color: red;
-	text-align: center;
+	
 }
 .menu ul li a:hover{
 	width: 50px;
 	background-color: red;
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
+    box-shadow: 0 15px 15px 10px #6D6D6D;
  }
 .navbar-default {
 	background-color: transparent;
@@ -89,15 +214,23 @@ body{
 	font-size: 40px;
 }
 .inicio h4{
-	
+	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	margin-left: 15px;
 	margin-right: 15px;
 }
+.inicio h1{
+	margin-top: 10px;
+	font:italic bold small-caps 30px;
+	color: #666666;
+	text-align: left;
+	font-size: 40px;
+	margin-left: 15px;
+}
 .inicio h2{
 	margin-top: 10px;
-	font:italic bold small-caps 30px cursive;
+	font:italic bold small-caps 30px;
 	color: #666666;
 	text-align: left;
 	font-size: 40px;
@@ -107,39 +240,7 @@ body{
 	color:blue;
 }
 
-.menu2 a{
-	font-size: 17px;
-	color: #6d6d6d;
-	margin:auto;
-}
 
-
-.menu2 ul {
-    margin:auto;
- 	background-color:#6d6d;
-    list-style:none;
-    width: 600px;
-    
-}
-.menu2 ul li {
-	display: inline;
-	background-color:#EDEDED;
- }
-
-.menu2 ul li a {
-	padding: 3px 15px;
-   display: inline-block;
-	/* visual do link */
-    background-color:#EDEDED;
-    color: #333;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
-}
-.menu2 ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
-}
 .motor img{
 	width: 35%;
 	float:left;
@@ -189,12 +290,38 @@ body{
 
 /*dispositivo movel*/
 
-@media screen and (max-width: 1000px){
-.menu{
-
-	
-
+@media (max-width: 991px){
+.toggle{
+		position: fixed;
+		display: block;
+		margin-left: 670px;
+		margin-top: 100px;
 }
+.menu{
+	display: none;
+}
+.menu-responsivo{
+	display: block;
+}
+
+	.row h3 {
+		margin-top: 0px;
+		color: black;
+		margin-bottom: 100px;
+	}
+
+	.row-1 {
+		margin-bottom: 0px;
+	}
+
+	.col-md-4{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.footer{
+		margin-top: 0;
+	}
 
 .inicio img{
 	width: 100%;
@@ -205,19 +332,17 @@ body{
 	margin-right: 1px;
 }
 .inicio h2{
+	text-align: center;
+}
+.inicio h1{
 	font-size: 45px;
-	position: relative;
+	text-align: center;
 }
-.menu a{
-	font-size: 30px;
-}
-.menu2 a{
-	font-size: 25px;
-}
+
 .conteudo img{
 	width: 100%;
 }
-.conteudo h3{
+.conteudo h4{
 	font-size: 45px;
 	text-align: center;
 }
@@ -234,6 +359,17 @@ body{
 
 }
 @media screen and (max-width: 748px){
+.toggle{
+		position: fixed;
+		display: block;
+	margin-left: auto;
+}
+.menu{
+	display: none;
+}
+.menu-responsivo{
+	display: block;
+}
 .inicio img{
 	width: 100%;
 }

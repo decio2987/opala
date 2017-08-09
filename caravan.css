@@ -2,21 +2,27 @@
 	margin: 0;
 	padding: 0;
 }
+#main h2{
+	font-size: 25px;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #6d6d6d;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-	background-color: red;
+	background-color: #EA0000;
 }
 #navbar1 ul li a{
-	width: 120px;
+	width: 130px;
+	height: 50px;
 	color: white;
-	text-align: center;
+	font-size: 22px;
+	
 }
 #navbar1 ul li {
 	background-color: #6d6d6d;
 	width: 140px;
 	height: 55px;
+	
 }
 .menu{
 	background-color: #6d6d6d;
@@ -29,22 +35,17 @@
 	margin-left: 15px;
     font-family: 'Open Sans', sans-serif; 
 }
-.menu ul li a{
-	width: 120px;
-	height: 50px;
-	text-align: center; 
-}
-/*atras do menu responsivo*/
 .dropdown-menu{
 	background-color: red;
-	text-align: center;
+	
 }
 .menu ul li a:hover{
 	width: 50px;
 	background-color: red;
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
-}
+    box-shadow: 0 15px 15px 10px #6D6D6D;
+ }
 .navbar-default {
 	background-color: transparent;
 	border: none;
