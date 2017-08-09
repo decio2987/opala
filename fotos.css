@@ -339,7 +339,7 @@ body{
 
 /*dispositivo movel*/
 
-@media screen and (max-width: 1000px){
+@media (max-width: 990px){
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
 	background-color: red;
 }
@@ -380,7 +380,7 @@ body{
 
 
 }
-@media screen and (max-width: 748px){
+@media (max-width: 748px){
 .inicio img{
 	width: 100%;
 }
