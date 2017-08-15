@@ -1,144 +1,116 @@
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #6d6d6d;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: #EA0000;
+}
+#navbar1 ul li a{
+	width: 130px;
+	height: 50px;
+	color: white;
+	font-size: 22px;
+	
+}
+#navbar1 ul li {
+	background-color: #6d6d6d;
+	width: 140px;
+	height: 55px;
+	
+}
+.menu{
+	background-color: #6d6d6d;
+	width: 100%;
+	height: 55px;
+}
+.menu a{
+	font-size: 20px;
+	color: #6d6d6d;
+	margin-left: 15px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.dropdown-menu{
+	background-color: red;
+	
+}
+.menu ul li a:hover{
+	width: 50px;
+	background-color: red;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+    box-shadow: 0 15px 15px 10px #6D6D6D;
+ }
+.navbar-default {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+}
+/*menu */
+.inicio{
+	margin-top:-30px;
+}
+
+
+
+.logo img{
+	width: 100%;
+	height: 20%;
+	box-shadow: 0 0 0 10px;
+}
 .topo{
+	border-radius: 10px;
 	background-image: url(imagens/logo22.jpg);
 	background-position: top;
 	background-size: 1200px;
-	height: 100px;		
-
-
+	height: 100px;
+	box-shadow: 0 7px 15px 7px;		
 }
-/*MENU*/
-.menu-responsivo{
-	display: block;
+body{
+	background-image: linear-gradient(to right, white,#c0d9d9, white);
+	background-repeat: no-repeat;
 }
-
-.menu-responsivo {
-	z-index: 99999;
-	position: fixed;
-	width: 150px;
-	height: 0;
-	left: 50px;
-	top: -200px;
-	transition: .2s;
+.inicio{
+	list-style: none;
+	font-size: 40px;
 }
-
-.menu-responsivo ul {
-		margin-top: 0px;
-		margin-left: -50px;
-		list-style: none;
-		text-align: center;
-		background-color: red;
+.inicio h4{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
-
-.menu-responsivo ul li a {
-		font-size: 20px;
-		padding: 10px;
-		display: block;
-		color: white;
-		border-bottom: solid 1px white;
-		text-decoration: none;
-		text-transform: uppercase;
-		transition: .5s;
+.inicio h1{
+	margin-top: 10px;
+	font:italic bold small-caps 30px;
+	color: #666666;
+	text-align: left;
+	font-size: 40px;
+	margin-left: 15px;
 }
-
-.menu-responsivo ul li a:hover {
-	color: red;
+.inicio h2{
+	margin-top: 10px;
+	font:italic bold small-caps 30px;
+	color: #666666;
+	text-align: left;
+	font-size: 40px;
+	margin-left: 15px;
 }
-.menu-responsivo.ativo {
-	top: 0;
-}
-
-/*TOGGLE*/
-.toggle{
-	float: right;
-	font-size: 30px;
-	display: none;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-
-.toggle i{
-	border: solid 1px;
-	padding: 5px 10px;
-	border-radius: 10px;
-	font-size: 30px	;
-	color: black;
-	transition: .3s;
+.primeiro {
+	color:blue;
 }
 
 
-
-/* EFEITO DO LAYOUT ESCORREGANDO PRA BAIXO*/
-.layout{
-	transition:.2s;
+.opala img{
+	width: 100%;
+	float:left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	margin-right: 15px;
 }
-.layout.ativo{	
-	padding-top: 200px
-}
-
-
-
-.menu ul{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.menu ul li {
-	display: inline-block;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-.menu ul li a {
-	color: black;
-	font-size: 20px;
-	text-decoration: none;
-	transition: .3s;
-}
-
-.menu ul li a:hover {
-	color: red;
-	border-bottom: solid 3px;
-	padding-bottom: 5px;
-}
-
-
-
-
-
-
-
-/* ALINHAR FOTOS*/
-
-/* esse aqui que vc tava se empenhando pra descobrir, pra zerar as bordas*/
-.col-md-4 {
-	padding: 7px; 
-}
-
-
-
-/*aqui vai alinhar as 3 fotos de baixo por conta do atributo negativo do H3*/
-.row-1{
-	margin-bottom: 255px;
-}
-
-
-
-/* margin-top negativo pra subir até a altura que quiser o texto, 
-cada vez que alterar o negativo, vai ter que mexer no MARGIN-BOTTOM do ROW-1, logo acima*/
-.row h3{
-	font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-	color: white;
-	margin-top: -300px;
-}
-
-.footer {
-	background-color: #a6b1bb;
-	margin-top: 300px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
+.rodape{
+	margin-top: 30px;
+	margin-left: 25px;
+	margin-bottom: 30px;
 }
 .rodape i{
 	font-size: 35px;
@@ -147,11 +119,13 @@ cada vez que alterar o negativo, vai ter que mexer no MARGIN-BOTTOM do ROW-1, lo
 	color: #8470FF;
 }
 .rodape {
+	border-radius: 10px;
 	background-image: url('imagens/logo22.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 1200px;
 	height: 120px;
+	box-shadow: 0 7px 15px 7px;
 }
 .twiter i{
 		font-size: 35px;
@@ -160,38 +134,102 @@ cada vez que alterar o negativo, vai ter que mexer no MARGIN-BOTTOM do ROW-1, lo
 	color: #8470FF;
 
 }
-
-
-
-
-
-
-@media (max-width: 991px){
-
-	.toggle{
-		display: block;
-	}
-
-	.menu{
-		display: none;
-	}
-
-	.row h3 {
-		margin-top: 0px;
-		color: black;
-		margin-bottom: 100px;
-	}
-
-	.row-1 {
-		margin-bottom: 0px;
-	}
-
-	.col-md-4{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	
-	.footer{
-		margin-top: 0;
-	}
+.foto img{
+	width: 100px;
 }
+.foto img{
+	width: 100px;
+
+}
+.menu2{
+	display: none;
+}
+#main h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
+
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: none;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 55px;
+    margin-left: 50px;
+}
+
+#main {
+	display: none;
+    transition: margin-left .5s;
+    padding: 16px;
+} 
+@media (max-width: 991px){
+.menu{
+	display: none;
+}
+#main{
+	display: block;
+}
+.menu2{
+	display: block;
+}
+.sidenav a{
+	display: block;
+}
+.opala img{
+	width: 100%;
+	border-radius: 10px;
+	
+	
+}
+.inicio h1{
+	font-size: 45px;
+	text-align: center;
+	box-shadow: 0 7px 15px 7px;
+}
+.inicio h2{
+	font-size: 40px;
+	text-align: center;
+	box-shadow: 0 7px 15px 7px;
+	
+}
+.inicio h4{
+	font-size:35px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+
+
+
+
+
+

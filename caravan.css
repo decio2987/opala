@@ -1,10 +1,3 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-#main h2{
-	font-size: 25px;
-}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #6d6d6d;
 }
@@ -112,35 +105,7 @@ body{
 	color:blue;
 }
 
-.menu2 a{
-	font-size: 17px;
-	color: #6d6d6d;
-	margin:auto;
-}
-.menu2 ul {
-    margin:auto;
- 	background-color:#6d6d;
-    list-style:none;
-    width: 600px;
-}
-.menu2 ul li {
-	display: inline;
-	background-color:#EDEDED;
- }
- .menu2 ul li a {
-	padding: 3px 15px;
-   display: inline-block;
-	/* visual do link */
-    background-color:#EDEDED;
-    color: #333;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
-}
-.menu2 ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
-}
+
 .motor img{
 	width: 35%;
 	float:left;
