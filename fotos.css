@@ -223,9 +223,11 @@ body{
 .conteudo h3{
 	font-size: 45px;
 	text-align: center;
+	box-shadow: 0 7px 15px 7px;
 }
 .conteudo h4{
 	font-size: 35px;
+	
 	
 }
 .opala img{
