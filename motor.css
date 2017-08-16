@@ -52,160 +52,60 @@
 	text-align: center;
 }
 /*menu */
-.inicio{
-	margin-top:-30px;
-}
-.opala img{
-	width: 100%;
-}
-.motor img{
-	width: 100%;
-	border-radius: 10px;
-}
-.motor1 img{
-	width: 35%;
-	border-radius: 10px;
-	margin-bottom: 15px;
-}
 
-.teste{
-
-	margin-top: 50px;
-	font-size: 25px;
-	margin-bottom: 50px;
-	font-style: unset;
-}
-.logo img{
-	width: 100%;
-	height: 20%;
-}
-.topo{
-	background-image: url(imagens/logo22.jpg);
-	background-position: top;
-	background-size: 1200px;
-	height: 100px;		
-
-
-}
-body{
-	background-image: linear-gradient(to right, white,#c0d9d9, white);
-	background-repeat: no-repeat;
-
-	
-	
-	} 	
-.teste h4{
-
-	font-size: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-.inicio  {
-
-	list-style: none;
-	font-size: 40px;
-
-}
-.inicio h4{
-	
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-.inicio h2{
-	margin-top: 10px;
-	font:italic bold small-caps 30px cursive;
-	color: #666666;
-	text-align: left;
-	font-size: 40px;
-	margin-left: 15px;
-}
-
-
-
-.menu2 a{
-	font-size: 17px;
-	color: #6d6d6d;
-	margin:auto;
-}
-
-
-.menu2 ul {
-    margin:auto;
- 	background-color:#6d6d;
-    list-style:none;
-    width: 600px;
-    
-}
-.menu2 ul li {
-	display: inline;
-	background-color:#EDEDED;
- }
-
-.menu2 ul li a {
-	
-   padding: 3px 15px;
-   display: inline-block;
-
-    /* visual do link */
-    background-color:#EDEDED;
-    color: #333;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
-}
-.menu2 ul li a:hover {
-    background-color:#D6D6D6;
-    color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
-}
-
-.foto1 img{
-	width: 35%;
-	float:left;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	margin-right: 15px;
-}
 .motor img{
 	width: 35%;
 	float:left;
 	margin-top: 15px;
 	margin-bottom: 25px;
 	margin-right: 15px;
+	border-radius: 10px;
 }
-
+.topo{
+	border-radius: 10px;
+	background-image: url(imagens/logo22.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100px;
+	box-shadow: 0 7px 15px 7px;		
+}
+body{
+	background-image: linear-gradient(to right, white,#c0d9d9, white);
+	background-repeat: no-repeat;
+}
 .rodape{
 	margin-top: 30px;
 	margin-left: 25px;
 	margin-bottom: 30px;
-	}
-.rodape h2{
-	font-size: 40px;
-	color: white;
-	margin-left: 40%;
-
 }
-.rodape i{
-	font-size: 35px;
-	margin-top: 35px;
-	margin-left: 35px;
-	color: #8470FF;
-}
-.rodape {
+.rodape{
+	border-radius: 10px;
 	background-image: url('imagens/logo22.jpg');
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: 1200px;
+	background-position: center;
+	background-size: cover;
 	height: 120px;
+	box-shadow: 0 7px 15px 7px;
 }
-.twiter i{
+.rodape i{
 		font-size: 35px;
-	margin-top: -35px;
-	margin-left: 75px;
+	margin-top: 15px;
+	margin-left: 25px;
 	color: #8470FF;
 
-}
+
+}	
+.twiter i{
+		font-size: 35px;
+	margin-top: -75px;
+	margin-left: 50px;
+	color: #8470FF;
+
+} 	
+
+
+
+
 .foto img{
 	width: 100px;
 
@@ -214,36 +114,75 @@ body{
 	margin-left: 650px;
 	margin-top: 30px;
 }
+.menu2{
+	display: none;
+}
+#main h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: bold;
 
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: none;
+    transition: 0.3s;
+}
 
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
 
+.sidenav .closebtn {
 
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 55px;
+    margin-left: 50px;
+}
+
+#main {
+	display: none;
+    transition: margin-left .5s;
+    padding: 16px;
+}
 /*dispositivo movel*/
-
-@media screen and (max-width: 1000px){
-
-.inicio img{
+@media (max-width: 991px){
+.menu{
+	display: none;
+}
+#main{
+	display: block;
+}
+.menu2{
+	display: block;
+}
+.sidenav a{
+	display: block;
+}
+.motor img{
 	width: 100%;
+	margin-left: 0;
 }
-.inicio h4{
-	font-size:35px;
-	margin-left: 1px;
-	margin-right: 1px;
-}
-.inicio h2{
-	font-size: 45px;
-	position: relative;
-}
-.menu a{
-	font-size: 30px;
-}
-.menu2 a{
-	font-size: 25px;
-}
-.conteudo img{
-	width: 100%;
-}
+
 .conteudo h3{
 	font-size: 45px;
 	text-align: center;
@@ -251,43 +190,5 @@ body{
 .conteudo h4{
 	font-size: 35px;
 	
-}
-.opala img{
-	width: 100%;
-}
-
-
-
-
-}
-@media screen and (max-width: 748px){
-.inicio img{
-	width: 100%;
-}
-.inicio h4{
-	font-size:35px;
-	margin-left: 1px;
-	margin-right: 1px;
-}
-.inicio h2{
-	font-size: 45px;
-	position: relative;
-}
-.conteudo img{
-	width: 100%;
-}
-.conteudo h3{
-	font-size: 45px;
-	text-align: center;
-}
-.conteudo h4{
-	font-size: 35px;
-
-}
-.opala img{
-	width: 100%;
-}
-.menu a{
-	font-size: 30px;
 }
 }

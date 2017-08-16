@@ -8,43 +8,65 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+	<div class="menu2">
+			<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<a href="index.html">Home</a>
+  			<a href="standart.html">standart/especial</a>
+  			<a href="luxo.html">luxo</a>
+			<a href="granluxo.html">gran luxo</a>
+			<a href="opalass.html">opala ss</a>
+			<a href="caravan.html">caravan</a>
+			<a href="comodoro.html">comodoro</a>
+			<a href="diplomata.html">diplomata</a>
+			<a href="collection.html">collection</a>
+			<a href="fotos.html">fotos</a>
+			<a href="motor.html">motores</a></li>
+			</div>
+		</div>
+			
+		<div id="main">
+  		<h2>D'dym auto parts</h2>
+  			<span style="font-size:35px;cursor:pointer" onclick="openNav()">Menu </span>
+		</div>
 	<header>
 		<div class="container">
-		<div class="topo">
-			</div>
-				<div class="menu">
-					<nav class="navbar navbar-default">
-			        	<div class="navbar-header">
-				       	 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
-				          		<span class="sr-only">Toggle navigation</span>
-				         		 <span class="icon-bar"></span>
-				         		 <span class="icon-bar"></span>
-				         		 <span class="icon-bar"></span>
-				        	</button>
-			       		 </div>
-			      	<div id="navbar1" class="navbar-collapse collapse">
-				        <ul class="nav navbar-nav">
-				          <li class="active"><a href="index.html">Home</a></li>
-				          <li><a href="fotos.html">fotos</a></li>
-				          <li><a href="motor.html">motores</a></li>
-				          <li class="dropdown">
-				            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">modelos<span class="caret"></span></a>
-				            <ul class="dropdown-menu" role="menu">
-				            	<li><a href="standart.html">standart/especial</a></li>
-				                <li><a href="luxo.html">luxo</a></li>
-				                <li><a href="granluxo.html">gran luxo</a></li>
-				                <li><a href="opalass.html">opala ss</a></li>
-				               	<li><a href="caravan.html">caravan</a></li>
-				                <li><a href="comodoro.html">comodoro</a></li>
-				                 <li><a href="diplomata.html">diplomata</a></li>
-				                 <li><a href="collection.html">collection</a></li>
-				            </ul>
-				          </li>
-			        	</ul>
-			        </div>
+			<div class="topo">
+				</div>
+					<div class="menu">
+						<nav class="navbar navbar-default">
+			        		<div class="navbar-header">
+				       	 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+				          			<span class="sr-only"></span>
+				         		 	<span class="icon-bar"></span>
+				         		 	<span class="icon-bar"></span>
+				         		 	<span class="icon-bar"></span>
+				        		</button>
+			       			</div>
+			      			<div id="navbar1" class="navbar-collapse collapse">
+				        		<ul class="nav navbar-nav">
+				          			<li class="active"><a href="index.html">Home</a></li>
+				          			<li><a href="fotos.html">fotos</a></li>
+				          			<li><a href="motor.html">motores</a></li>
+				         		 	<li class="dropdown">
+				            			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">modelos<span class="caret"></span></a>
+				            		<ul class="dropdown-menu" role="menu">
+				            			<li><a href="standart.html">standart/especial</a></li>
+				                		<li><a href="luxo.html">luxo</a></li>
+				                		<li><a href="granluxo.html">gran luxo</a></li>
+				                		<li><a href="opalass.html">opala ss</a></li>
+				               			<li><a href="caravan.html">caravan</a></li>
+				                		<li><a href="comodoro.html">comodoro</a></li>
+				                 		<li><a href="diplomata.html">diplomata</a></li>
+				                 		<li><a href="collection.html">collection</a></li>
+				            		</ul>
+				          			</li>
+			        			</ul>
+			        	</div>
 			      <!--/.nav-collapse -->
-			    </nav>
-			    </div>
+			    		</nav>
+					</div>
+		</div>
 	</header>
 <main>
 		<div class="container">
@@ -61,16 +83,45 @@
 </main>
 <footer>
 	<div class="container">
-	
- 	 	<div class="rodape">
- 	 		<a href="http://facebook.com.br" title="abrir o facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+		
+				<div class="rodape">
+					<a href="http://facebook.com.br" title="abrir o facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					</div>
  	 				<div class="twiter">
  	 				<a href="http://twitter.com.br" title="abrir o twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>	
  	 				</div>
- 	 	</div>
+ 	 			
  	</div>
 </footer>
-	
+<script  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+<script>
+	      $(function(){       
+        $('.toggle').click(function(){
+          $('.layout').toggleClass('ativo');
+          $('.menu-responsivo').toggleClass('ativo');
+          $(this).toggleClass('ativo');
+        });
+        new WOW().init();
+      });
+</script>
+<script>
+		function openNav() {
+    		document.getElementById("mySidenav").style.width = "300px";
+    		document.getElementById("main").style.marginLeft = "250px";
+    		document.body.style.backgroundColor = "rgba(215,129,45,0.9)";
+		}
+
+		function closeNav() {
+    		document.getElementById("mySidenav").style.width = "0";
+    		document.getElementById("main").style.marginLeft= "0";
+    		document.body.style.backgroundColor = "white";
+		}
+
+</script>		
+		
 	
 <script type="text/javascript" src="jquery.js"></script>	
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
